@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color:aqua; text-align: center; height:100% ">
+    <form action="/" style="border: 1px;">
+        <h1>Registration Form</h1>
+        <h3>College Tech Fest</h3>
+        <label for="username">Username</label>
+        <input type="text" id="username">
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="Urn">UNR</label>
+        <input type="text" id="Urn">
+        <br><br>
+        <label>Select Course :- </label>
+        <input type="radio" name="course" id="B.tech">
+        <label id="B.tech">B.tech</label>
+        <input type="radio" name="course" id="Bba">
+        <label id="Bba">Bba</label>
+        <input type="radio" name="course" id="Bca">
+        <label id="Bca">Bca</label>
+        <input type="radio" name="course" id="Others">
+        <label id="others">Others</label>
+        <br>
+        <h4>Selact a domain in which you want to participate</h4>
+        <label for="domain">Select a domain</label>
+        <input type="text" id="domain" list="domains">
+        
+            <datalist id="domains">
+                <option value="WEB DEVELOPMENT"></option>
+                <option value="AIML"></option>
+                <option value="MACHINE LEARNING"></option>
+                <option value="CLOUD COMPUTING"></option>
+                <option value="CYBER"></option>
+            </datalist>
+      
+        <br><br>
+        <input type="checkbox" id="terms">
+        <label for="terms">I agree terms and conditions</label>
+        <br><br>
+        <label for="exp" >Experience</label>
+        <br><br>
+        <textarea name="experience" id="exp" cols="150" rows="6">Start Typing here...</textarea>
+        <br><br>
+        <button type="reset" style="text-align: left;">Reset</button>
+        <button type="submit" style="text-align: right;">Submit</button>
+
+    </form>
+</body>
+
+</html>
